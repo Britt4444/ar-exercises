@@ -18,5 +18,3 @@ puts "----------"
 @store2.employees.create(first_name: "Rachel", last_name: "Greene", hourly_rate: 60)
 @store2.employees.create(first_name: "Monica", last_name: "Geller", hourly_rate: 70)
 @store2.employees.create(first_name: "Gunther", last_name: "Central Perk", hourly_rate: 50)
-
-puts @store2.employees.count
